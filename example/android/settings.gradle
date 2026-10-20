@@ -1,0 +1,11 @@
+include ':app'
+include ':capacitor-cordova-android-plugins'
+project(':capacitor-cordova-android-plugins').projectDir = new File('./capacitor-cordova-android-plugins/')
+
+
+// Identixia Face Recognition AAR drop-zone for the example
+include ':libfacelivenesssdk'
+project(':libfacelivenesssdk').projectDir = new File('./libfacelivenesssdk')
+
+
+apply from: 'capacitor.settings.gradle'

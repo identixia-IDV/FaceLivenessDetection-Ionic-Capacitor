@@ -1,0 +1,74 @@
+.home-root {
+  min-height: 100%;
+  background: #e6e9ef;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.home-chips {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.home-chip {
+  background: #f7f8fa;
+  border: 1px solid #c5ccd8;
+  border-radius: 999px;
+  padding: 10px 16px;
+  color: #141a22;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.home-chip.grow {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.home-chip.bold {
+  font-weight: 700;
+}
+
+.home-primary {
+  flex: 1;
+  min-height: 128px;
+  border: none;
+  border-radius: 16px;
+  background: #0f766e;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.home-primary:disabled {
+  opacity: 0.45;
+}
+
+.home-primary-title {
+  display: block;
+}
+
+.home-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  height: 96px;
+}
+
+.home-small {
+  flex: 1;
+  border: 1px solid #c5ccd8;
+  border-radius: 16px;
+  background: #f7f8fa;
+  color: #141a22;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
